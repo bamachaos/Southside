@@ -1,0 +1,217 @@
+.container1 {
+	width: 100%;
+}
+
+.container2 {
+    display: flex;
+    width: 100%;
+	background-color: blue;
+	color: white;
+	border: 2px solid black;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	text-align: right;
+	
+}
+
+
+
+
+
+    body {
+
+      margin: 0;
+
+      font-family: 'Roboto', sans-serif;
+
+      background-color: #f4f6f8;
+
+      color: #333;
+
+    }
+
+    header {
+
+      background-color: #003366;
+
+      color: white;
+
+      padding: 1rem 2rem;
+
+      display: flex;
+
+      align-items: center;
+
+      justify-content: space-between;
+	  
+	  flex-direction: row;
+
+    }
+
+    header img {
+
+      height: 60px;
+
+    }
+
+	nav {
+		display: flex;
+		
+		flex-direction: row;
+	}
+
+    nav a {
+
+      color: white;
+
+      margin-left: 1.5rem;
+
+      text-decoration: none;
+
+      font-weight: 500;
+
+    }
+
+    .hero {
+
+      background-color: #e9edf4;
+
+      text-align: center;
+
+      padding: 4rem 2rem;
+
+    }
+
+    .hero h1 {
+
+      font-size: 3rem;
+
+      margin-bottom: 0.5rem;
+
+    }
+
+    .hero p {
+
+        max-width: 600px;
+
+      margin: 0 auto;
+
+    }
+
+.hero p {
+    background-image: none;
+
+    font-size: 1.2rem;
+}
+
+.section {
+
+      padding: 3rem 2rem;
+
+      max-width: 1000px;
+
+      margin: auto;
+
+    }
+
+    .section h2 {
+
+      font-size: 2rem;
+
+      margin-bottom: 1rem;
+
+      text-align: center;
+
+    }
+
+    footer {
+
+      background-color: #003366;
+
+      color: white;
+
+      text-align: center;
+
+      padding: 1rem;
+
+    }
+/*
+.dropbtn {
+  background-color: #1e4d8d;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #1e4d8d;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+ */
+
+/* New button code */
+
+.dropbtn {
+    background-color: #003366;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    float: right;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #0000ff;}
