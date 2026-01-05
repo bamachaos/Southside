@@ -1,350 +1,122 @@
 <!DOCTYPE html>
 
-<html lang="en">
-
 <head>
 
-  <meta charset="UTF-8" />
+	<meta charset="UTF-8" />
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Southside Baptist Church</title>
+	<title>Southside Baptist Church</title>
 
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet" />
+	<link href="southside.css" type="text/css" rel="stylesheet">
 
-  <style>
+	<script src="southside_js.js"></script>
 
-    body {
-
-      margin: 0;
-
-      font-family: 'Roboto', sans-serif;
-
-      background-color: #f4f6f8;
-
-      color: #333;
-
-    }
-
-    header {
-
-      background-color: #1e4d8d;
-
-      color: white;
-
-      padding: 1rem 2rem;
-
-      display: flex;
-
-      align-items: center;
-
-      justify-content: space-between;
-	  
-	  flex-direction: row;
-
-    }
-
-    header img {
-
-      height: 60px;
-
-    }
-
-	nav {
-		display: flex;
-		
-		flex-direction: row;
-	}
-
-    nav a {
-
-      color: white;
-
-      margin-left: 1.5rem;
-
-      text-decoration: none;
-
-      font-weight: 500;
-
-    }
-
-    .hero {
-
-      background-color: #e9edf4;
-
-      text-align: center;
-
-      padding: 4rem 2rem;
-
-    }
-
-    .hero h1 {
-
-      font-size: 3rem;
-
-      margin-bottom: 0.5rem;
-
-    }
-
-    .hero p {
-	  
-	  background-image: 
-
-      font-size: 1.2rem;
-
-      max-width: 600px;
-
-      margin: 0 auto;
-
-    }
-
-    .section {
-
-      padding: 3rem 2rem;
-
-      max-width: 1000px;
-
-      margin: auto;
-
-    }
-
-    .section h2 {
-
-      font-size: 2rem;
-
-      margin-bottom: 1rem;
-
-      text-align: center;
-
-    }
-
-    footer {
-
-      background-color: #1e4d8d;
-
-      color: white;
-
-      text-align: center;
-
-      padding: 1rem;
-
-    }
-
-  </style>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet" />
 
 </head>
 
 <body>
 
-  <header>
+	<div class="container1">
 
-    <a href="index.html"><img src="images/Transparent Logo (1).png" alt="Broken" style="width: 150px;height:auto;"><a/>
+			<header>
 
-    <nav>
-	  
-	
-		<style>
-.dropbtn {
-  background-color: #1e4d8d;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
+				<a href="index.html"> <img src="images/Transparent Logo (1).png" alt="Broken" style="width: 150px;height:auto;"> </a>
 
-.dropbtn:hover, .dropbtn:focus {
-  background-color: #1e4d8d;
-}
+				<nav>
 
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
+				<div class="dropdown" style="float:right;">
+					<button class="dropbtn">About</button>
+					<div class="dropdown-content">
+						<a href="about.html">About</a>
+						<a href="#">Link 2</a>
+						<a href="#">Link 3</a>
+					</div>
+				</div>
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  overflow: auto;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
+				<div class="dropdown" style="float:right;">
+					<button class="dropbtn">Sermons</button>
+					<div class="dropdown-content">
+						<a href="sermons.html">Sermons</a>
+						<a href="#">Link 5</a>
+						<a href="#">Link 6</a>
+					</div>
+				</div>
 
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
+				<div class="dropdown" style="float:right;">
+					<button class="dropbtn">Events</button>
+					<div class="dropdown-content">
+						<a href="events.html">Events</a>
+						<a href="#">Link 8</a>
+						<a href="#">Link 9</a>
+					</div>
+				</div>
 
-.dropdown a:hover {background-color: #ddd;}
+				<div class="dropdown" style="float:right;">
+					<button class="dropbtn">Ministries</button>
+					<div class="dropdown-content">
+						<a href="ministries.html">Ministries</a>
+						<a href="#">Link 11</a>
+						<a href="#">Link 12</a>
+					</div>
+				</div>
 
-.show {display: block;}
-</style>
-</head>
-<body style="background-color:white;">
+				<div class="dropdown" style="float:right;">
+					<button class="dropbtn">Give</button>
+					<div class="dropdown-content">
+						<a href="give.html">Give</a>
+						<a href="#">Link 14</a>
+						<a href="#">Link 15</a>
+					</div>
+				</div>
+
+				<div class="dropdown" style="float:right;">
+					<button class="dropbtn">Contact</button>
+					<div class="dropdown-content">
+						<a href="contact.html">Contact</a>
+						<a href="#">Link 17</a>
+						<a href="#">Link 18</a>
+					</div>
+				</div>
+
+			</nav>
+
+			</header>
+
+		<section class="hero">
+
+			<h1>Welcome to Southside Baptist Church</h1>
+
+			<p>Love God, Love People, Disciple the World</p>
+
+			<br/>
+
+			<img src="images/DSC_0001.jpg" alt="Broken" style="width: 300px;height:auto;">
+			<p> First time here? Check out our first time visitor area.</P>
+			<img src="images/Outreach.jpg" alt="Broken" style="width: 300px;height:auto;">
+			<p> Growing God's kingdom through community outreach.</p>
+			<img src="images/DSC_0008.jpg" alt="Broken" style="width: 300px;height:auto;">
+			<p> Check out our lifegroups for another way to grow.</p>
+		</section>
+
+		<section id="contact" class="section">
+
+			<!--<h2>Contact Us</h2>-->
+
+			<p>Email: sbccullman@gmail.com<br />Phone: (256) 739-2774<br />Address: 2003 Main Ave. SW, Cullman, AL 35055</p>
+
+		</section>
 
 
-		
-		
-<!--      <a href="about.html">About</a>  -->
 
-	<div class="About">
-		<button onclick="myFunction()" class="dropbtn">About</button>
-		<div id="myDropdown" class="dropdown-content">
-			<a href="#home">Our Church</a>
-			<a href="#about">Our Pastor</a>
-			<a href="#contact">Our Mission</a>
-		</div>
+		<footer>
+
+		&copy; 2025 Southside Baptist Church. All rights reserved.
+
+		</footer>
+
 	</div>
-
-      <a href="sermons.html">Sermons</a>
-
-      <a href="events.html">Events</a>
-
-      <a href="ministries.html">Ministries</a>
-
-      <a href="give.html">Give</a>
-
-      <a href="contact.html">Contact</a>
-
-    </nav>
-
-  </header>
-
-
-
-  <section class="hero">
-
-    <h1>Welcome to Southside Baptist Church</h1>
-
-    <p>Love God, Love People, Disciple the World</p>
-	
-	<br/>
-	
-	<img src="images/DSC_0001.jpg" alt="Broken" style="width: 300px;height:auto;">
-	<p> First time here? Check out our first time visitor area.</P>
-	<img src="images/Outreach.jpg" alt="Broken" style="width: 300px;height:auto;">
-	<p> Growing God's kingdom through community outreach.</p>
-	<img src="images/DSC_0008.jpg" alt="Broken" style="width: 300px;height:auto;">
-	<p> Check out our lifegroups for another way to grow.</p>
-  </section>
-
-	
-
-<!--
-  <section id="about" class="section">
-
-    <h2>About Us</h2>
-
-    <p>Southside Baptist Church exists to glorify God by living out its mission: Love God, Love People, Disciple the World. We are a community of believers who seek to grow in our relationship with God through worship, prayer, and the study of His Word. Our church is committed to creating an environment where individuals and families can encounter the transforming power of Jesus Christ and be equipped to live out their faith daily.
-
-
-</p>
-<p>Guided by the love of Christ, we strive to show compassion to those around us, serving our neighbors and meeting the needs of our community. We believe that discipleship is not only about deepening personal faith but also about sharing the hope of the Gospel with the world. At Southside Baptist, our mission calls us to be active in both local outreach and global missions, embodying the love of Christ in everything we do.
-
-</p>
-
-  </section>
-
-
-
-  <section id="sermons" class="section">
-
-    <h2>Recent Sermons</h2>
-
-    <p>Coming soon: Audio and video recordings of our latest Sunday services.</p>
-
-  </section>
-
-
-
-  <section id="events" class="section">
-
-    <h2>Upcoming Events</h2>
-
-    <p>Join us for Bible study, youth group, outreach, and more. Visit our events page for details.</p>
-
-  </section>
-
-
-
-  <section id="ministries" class="section">
-
-    <h2>Our Ministries</h2>
-
-    <p>We offer ministries for all ages, including youth, children, women, men, and seniors. Get connected and grow in faith together.</p>
-
-  </section>
-
-
-
-  <section id="give" class="section">
-
-    <h2>Give</h2>
-
-    <p>Support the mission of Southside Baptist Church. <a href="#">Click here to give online</a>.</p>
-
-  </section>
-
--->
-
-<script>
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
-
-function myFunction1() {
-  document.getElementById("myDropdown1").classList.toggle("show");
-}
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-</script>
-
-  <section id="contact" class="section">
-
-    <!--<h2>Contact Us</h2>-->
-
-    <p>Email: sbccullman@gmail.com<br />Phone: (256) 739-2774<br />Address: 2003 Main Ave. SW, Cullman, AL 35055</p>
-
-  </section>
-
-
-
-  <footer>
-
-    &copy; 2025 Southside Baptist Church. All rights reserved.
-
-  </footer>
 
 </body>
 
