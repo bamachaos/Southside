@@ -11,12 +11,16 @@ header{
     padding:15px 0;
 }
 
+.headerpic{
+	float: right;
+}
+
 .logo{
-    text-align:center;
+    text-align:left;
 }
 
 .logo img{
-    width:250px;
+    width:150px;
 }
 
 /* NAVIGATION */
@@ -68,9 +72,17 @@ nav ul li ul li{
 
 /* HERO */
 
+body {
+  background-image: url("images/Southside_profile_pic.jpg"); /* Replace with your image file path */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; /* Keeps the image static as content scrolls */
+  background-position: center; /* Centers the image */
+}
+
 .hero{
     background:url("images/hero.jpg") center/cover no-repeat;
-    color:white;
+    color:none;
     text-align:center;
     padding:120px 20px;
 }
