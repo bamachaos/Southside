@@ -73,7 +73,7 @@ nav ul li ul li{
 /* HERO */
 
 body {
-  background-image: url("images/Southside_profile_pic.jpg"); /* Replace with your image file path */
+  background-image: url("images/southside.jpeg"); /* Replace with your image file path */
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed; /* Keeps the image static as content scrolls */
@@ -89,6 +89,11 @@ body {
 
 .hero h1{
     font-size:40px;
+	color: white;
+}
+
+.hero p{
+	color: white;
 }
 
 .hero button{
